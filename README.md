@@ -1,1 +1,3 @@
-# Azure Cloud Storage
+# Azure Storage
+
+![storage](pics/azure-storage.png)
