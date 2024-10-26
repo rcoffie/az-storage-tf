@@ -25,3 +25,29 @@ To deploy these Azure Storage services efficiently, this project utilizes Terraf
 * Version control your infrastructure, allowing for collaboration and rollback capabilities.
 
 By combining Azure Storage with Terraform, you can streamline your deployment processes, maintain infrastructure consistency, and scale your applications effectively.
+
+## <ins> Usage </ins>
+
+### 1. Clone the Repository
+
+`` git clone https://github.com/rcoffie/az-storage-tf.git ``
+
+### 2. Navigate to the Project Directory
+
+`` cd az-storage-tf ``
+
+### 3. Authenticate and log in to azure account via the Azure Command-Line Interface(CLI)
+
+`` az login ``
+
+### 4. Set up Terraform enviroment
+
+`` terraform init ``
+
+### 5. Create an execuion plan
+
+`` terraform plan ``
+
+### 6. Executing the changes defined
+
+`` terraform apply --auto-approve ``
