@@ -32,6 +32,13 @@ resource "azurerm_storage_account" "storage_account" {
   account_replication_type = "GRS"
 
   tags = {
-    environment = "staging"
+    environment = "prod"
   }
 }
+
+resource "azurerm_storage_container" "storage_container1" {
+  name                  = "container1"
+  storage_account_name  = azurerm_storage_account.storage_account.name
+  container_access_type = "private"
+}
+
