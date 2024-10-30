@@ -16,3 +16,4 @@
 * Setup Azcopy
 * Azure storage redandancy
 * Configure object replication
+* Azure file share
