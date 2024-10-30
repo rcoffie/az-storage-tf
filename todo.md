@@ -17,3 +17,5 @@
 * Azure storage redandancy
 * Configure object replication
 * Azure file share
+* Map the share drive on a device
+* Blob life cycle Management
