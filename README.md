@@ -1,6 +1,6 @@
 # <ins>Azure Storage </ins>
 
-![storage](pics/azure-storage.png)
+![storage](pics/diagram-export-10-29-2024-11_41_47-AM.png)
 
 A simple project with deploying azure storage wth Terraform
 
